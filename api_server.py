@@ -30,6 +30,8 @@ from dna_pattern_analysis import StartupDNAAnalyzer
 from temporal_models import TemporalPredictionModel
 from industry_specific_models import IndustrySpecificModel
 
+sys.path.append(os.path.dirname(__file__))
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
