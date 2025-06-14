@@ -20,6 +20,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY api_server.py .
 COPY config.py .
 COPY shap_explainer.py .
+COPY stage_hierarchical_models.py .
 
 
 # Copy models directory
