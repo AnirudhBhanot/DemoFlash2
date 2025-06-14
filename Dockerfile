@@ -21,6 +21,7 @@ COPY api_server.py .
 COPY config.py .
 COPY shap_explainer.py .
 COPY stage_hierarchical_models.py .
+COPY dna_pattern_analysis.py .
 
 
 # Copy models directory
