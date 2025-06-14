@@ -22,6 +22,7 @@ COPY config.py .
 COPY shap_explainer.py .
 COPY stage_hierarchical_models.py .
 COPY dna_pattern_analysis.py .
+COPY temporal_models.py .
 
 
 # Copy models directory
